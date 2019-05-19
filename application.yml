@@ -1,20 +1,20 @@
-﻿spring:
-  profiles:
-    active:
+﻿spring: 
+  profiles: 
+    active: 
     - dev
     
 ---
 
-spring:
+spring: 
   profiles: dev
-    application:
-      name: mircoservice-config-weiy-dev
+  application: 
+    name: mircoservice-config-weiy-dev
       
 ---
 
-spring:
+spring: 
   profiles: test
-    application:
-      name: mircoservice-config-weiy-test
+  application: 
+    name: mircoservice-config-weiy-test
       
 #请保存为UTF-8的形式
